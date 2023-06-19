@@ -1,0 +1,14 @@
+{
+  "name": "rona-tracker",
+  "version": "1.0.0",
+  "description": "prgramatically gain access to product prices, stores and product categories of RONA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "developer algo",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

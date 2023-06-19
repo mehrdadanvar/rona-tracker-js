@@ -1,0 +1,1206 @@
+{
+  "data": [
+    {
+      "name": "Outdoor",
+      "url": "https://www.rona.ca/en/outdoor",
+      "children": [
+        {
+          "title": "Patio and Outdoor Furniture",
+          "url": "https://www.rona.ca/en/outdoor/patio-and-outdoor-furniture"
+        },
+        {
+          "title": "Outdoor Power Equipment",
+          "url": "https://www.rona.ca/en/outdoor/outdoor-power-equipment"
+        },
+        {
+          "title": "BBQs and Outdoor Cooking",
+          "url": "https://www.rona.ca/en/outdoor/bbqs-and-outdoor-cooking"
+        },
+        {
+          "title": "Plants and Flowers",
+          "url": "https://www.rona.ca/en/outdoor/plants-and-flowers"
+        },
+        {
+          "title": "Lawn and Garden Care",
+          "url": "https://www.rona.ca/en/outdoor/lawn-and-garden-care"
+        },
+        {
+          "title": "Patio Heaters and Fireplaces",
+          "url": "https://www.rona.ca/en/outdoor/patio-heaters-and-fireplaces"
+        },
+        {
+          "title": "Outdoor Decor",
+          "url": "https://www.rona.ca/en/outdoor/outdoor-decor"
+        },
+        {
+          "title": "Gardening Tools",
+          "url": "https://www.rona.ca/en/outdoor/gardening-tools"
+        },
+        {
+          "title": "Sheds and Outdoor Structures",
+          "url": "https://www.rona.ca/en/outdoor/sheds-and-outdoor-structures"
+        },
+        {
+          "title": "Outdoor Recreation & Play",
+          "url": "https://www.rona.ca/en/outdoor/outdoor-recreation-&-play"
+        },
+        {
+          "title": "Outdoor Lighting",
+          "url": "https://www.rona.ca/en/outdoor/outdoor-lighting"
+        },
+        {
+          "title": "Watering and Irrigation",
+          "url": "https://www.rona.ca/en/outdoor/watering-and-irrigation"
+        },
+        {
+          "title": "Landscaping",
+          "url": "https://www.rona.ca/en/outdoor/landscaping"
+        },
+        {
+          "title": "Snow and Ice Removal",
+          "url": "https://www.rona.ca/en/outdoor/snow-and-ice-removal"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16515",
+        "productCategory": "38977"
+      }
+    },
+    {
+      "name": "Building Supplies",
+      "url": "https://www.rona.ca/en/building-supplies",
+      "children": [
+        {
+          "title": "Ceilings",
+          "url": "https://www.rona.ca/en/building-supplies/ceilings"
+        },
+        {
+          "title": "Decking",
+          "url": "https://www.rona.ca/en/building-supplies/decking"
+        },
+        {
+          "title": "Wall Panels",
+          "url": "https://www.rona.ca/en/building-supplies/wall-panels"
+        },
+        {
+          "title": "Fencing and Gates",
+          "url": "https://www.rona.ca/en/building-supplies/fencing-and-gates"
+        },
+        {
+          "title": "Mouldings and Ornaments",
+          "url": "https://www.rona.ca/en/building-supplies/mouldings-and-ornaments"
+        },
+        {
+          "title": "Roofing and Gutters",
+          "url": "https://www.rona.ca/en/building-supplies/roofing-and-gutters"
+        },
+        {
+          "title": "Cement, Concrete, Mortar",
+          "url": "https://www.rona.ca/en/building-supplies/cement-concrete-mortar"
+        },
+        {
+          "title": "Framing",
+          "url": "https://www.rona.ca/en/building-supplies/framing"
+        },
+        {
+          "title": "Exterior Siding",
+          "url": "https://www.rona.ca/en/building-supplies/exterior-siding"
+        },
+        {
+          "title": "Insulation",
+          "url": "https://www.rona.ca/en/building-supplies/insulation"
+        },
+        {
+          "title": "Plywood and OSB",
+          "url": "https://www.rona.ca/en/building-supplies/plywood-and-osb"
+        },
+        {
+          "title": "Finish Lumber",
+          "url": "https://www.rona.ca/en/building-supplies/finish-lumber"
+        },
+        {
+          "title": "Stairs and Railings",
+          "url": "https://www.rona.ca/en/building-supplies/stairs-and-railings"
+        },
+        {
+          "title": "Project Panels",
+          "url": "https://www.rona.ca/en/building-supplies/project-panels"
+        },
+        {
+          "title": "Drywall",
+          "url": "https://www.rona.ca/en/building-supplies/drywall"
+        },
+        {
+          "title": "Plastic Panels",
+          "url": "https://www.rona.ca/en/building-supplies/plastic-panels"
+        },
+        {
+          "title": "Glue and Adhesives",
+          "url": "https://www.rona.ca/en/building-supplies/glue-and-adhesives"
+        },
+        {
+          "title": "Shims",
+          "url": "https://www.rona.ca/en/building-supplies/shims"
+        },
+        {
+          "title": "Structural Lumber",
+          "url": "https://www.rona.ca/en/building-supplies/structural-lumber"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16512",
+        "productCategory": "38924"
+      }
+    },
+    {
+      "name": "Appliances",
+      "url": "https://www.rona.ca/en/appliances",
+      "children": [
+        {
+          "title": "Refrigerators",
+          "url": "https://www.rona.ca/en/appliances/refrigerators"
+        },
+        {
+          "title": "Washers and Dryers",
+          "url": "https://www.rona.ca/en/appliances/washers-and-dryers"
+        },
+        {
+          "title": "Ranges",
+          "url": "https://www.rona.ca/en/appliances/ranges"
+        },
+        {
+          "title": "Dishwashers",
+          "url": "https://www.rona.ca/en/appliances/dishwashers"
+        },
+        {
+          "title": "Vacuums and Accessories",
+          "url": "https://www.rona.ca/en/appliances/vacuums-and-accessories"
+        },
+        {
+          "title": "Freezers and Ice Makers",
+          "url": "https://www.rona.ca/en/appliances/freezers-and-ice-makers"
+        },
+        {
+          "title": "Cooktops",
+          "url": "https://www.rona.ca/en/appliances/cooktops"
+        },
+        {
+          "title": "Microwaves",
+          "url": "https://www.rona.ca/en/appliances/microwaves"
+        },
+        {
+          "title": "Small Appliances",
+          "url": "https://www.rona.ca/en/appliances/small-appliances"
+        },
+        {
+          "title": "Wall Ovens",
+          "url": "https://www.rona.ca/en/appliances/wall-ovens"
+        },
+        {
+          "title": "Range Hoods",
+          "url": "https://www.rona.ca/en/appliances/range-hoods"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "100001",
+        "productCategory": "315226"
+      }
+    },
+    {
+      "name": "Bathroom",
+      "url": "https://www.rona.ca/en/bathroom",
+      "children": [
+        {
+          "title": "Showers",
+          "url": "https://www.rona.ca/en/bathroom/showers"
+        },
+        {
+          "title": "Vanities",
+          "url": "https://www.rona.ca/en/bathroom/vanities"
+        },
+        {
+          "title": "Toilets and Bidets",
+          "url": "https://www.rona.ca/en/bathroom/toilets-and-bidets"
+        },
+        {
+          "title": "Bathroom Faucets",
+          "url": "https://www.rona.ca/en/bathroom/bathroom-faucets"
+        },
+        {
+          "title": "Bathtubs",
+          "url": "https://www.rona.ca/en/bathroom/bathtubs"
+        },
+        {
+          "title": "Bathroom Sinks",
+          "url": "https://www.rona.ca/en/bathroom/bathroom-sinks"
+        },
+        {
+          "title": "Mirrors and Medicine Cabinets",
+          "url": "https://www.rona.ca/en/bathroom/mirrors-and-medicine-cabinets"
+        },
+        {
+          "title": "Bathroom Accessories",
+          "url": "https://www.rona.ca/en/bathroom/bathroom-accessories"
+        },
+        {
+          "title": "Bathtub and Shower Accessories",
+          "url": "https://www.rona.ca/en/bathroom/bathtub-and-shower-accessories"
+        },
+        {
+          "title": "Laundry",
+          "url": "https://www.rona.ca/en/bathroom/laundry"
+        },
+        {
+          "title": "Personal Care",
+          "url": "https://www.rona.ca/en/bathroom/personal-care"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16509",
+        "productCategory": "38878"
+      }
+    },
+    {
+      "name": "Kitchen",
+      "url": "https://www.rona.ca/en/kitchen",
+      "children": [
+        {
+          "title": "Kitchen Cabinets",
+          "url": "https://www.rona.ca/en/kitchen/kitchen-cabinets"
+        },
+        { "title": "Sinks", "url": "https://www.rona.ca/en/kitchen/sinks" },
+        {
+          "title": "Kitchen Faucets",
+          "url": "https://www.rona.ca/en/kitchen/kitchen-faucets"
+        },
+        {
+          "title": "Countertops",
+          "url": "https://www.rona.ca/en/kitchen/countertops"
+        },
+        {
+          "title": "Cabinet Pulls and Knobs",
+          "url": "https://www.rona.ca/en/kitchen/cabinet-pulls-and-knobs"
+        },
+        {
+          "title": "Kitchenware",
+          "url": "https://www.rona.ca/en/kitchen/kitchenware"
+        },
+        {
+          "title": "Wine Storage",
+          "url": "https://www.rona.ca/en/kitchen/wine-storage"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16510",
+        "productCategory": "38893"
+      }
+    },
+    {
+      "name": "Flooring and Ceramic Tile",
+      "url": "https://www.rona.ca/en/flooring-and-ceramic-tile",
+      "children": [
+        {
+          "title": "Tiles",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/tiles"
+        },
+        {
+          "title": "Vinyl Flooring",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/vinyl-flooring"
+        },
+        {
+          "title": "Laminate Flooring",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/laminate-flooring"
+        },
+        {
+          "title": "Hardwood Flooring",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/hardwood-flooring"
+        },
+        {
+          "title": "Flooring Underlayment",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/flooring-underlayment"
+        },
+        {
+          "title": "Floor Moulding and Trim",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/floor-moulding-and-trim"
+        },
+        {
+          "title": "Flooring Tools and Accessories",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/flooring-tools-and-accessories"
+        },
+        {
+          "title": "Flooring Grout and Mortar",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/flooring-grout-and-mortar"
+        },
+        {
+          "title": "Flooring Tapes and Adhesives",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/flooring-tapes-and-adhesives"
+        },
+        {
+          "title": "Flooring Care and Maintenance",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/flooring-care-and-maintenance"
+        },
+        {
+          "title": "Wood and Laminate - Tools and Accessories",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/wood-and-laminate---tools-and-accessories"
+        },
+        {
+          "title": "Linoleum and Vinyl - Tools and Accessories",
+          "url": "https://www.rona.ca/en/flooring-and-ceramic-tile/linoleum-and-vinyl---tools-and-accessories"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16503",
+        "productCategory": "38805"
+      }
+    },
+    {
+      "name": "Tools",
+      "url": "https://www.rona.ca/en/tools",
+      "children": [
+        {
+          "title": "Power Tools",
+          "url": "https://www.rona.ca/en/tools/power-tools"
+        },
+        {
+          "title": "Stationary and Workshop Tools",
+          "url": "https://www.rona.ca/en/tools/stationary-and-workshop-tools"
+        },
+        {
+          "title": "Power Tool Accessories",
+          "url": "https://www.rona.ca/en/tools/power-tool-accessories"
+        },
+        {
+          "title": "Pneumatics and Compressors",
+          "url": "https://www.rona.ca/en/tools/pneumatics-and-compressors"
+        },
+        {
+          "title": "Tool Storage and Work Benches",
+          "url": "https://www.rona.ca/en/tools/tool-storage-and-work-benches"
+        },
+        {
+          "title": "Mechanic Tools",
+          "url": "https://www.rona.ca/en/tools/mechanic-tools"
+        },
+        {
+          "title": "Workshop Vacuums",
+          "url": "https://www.rona.ca/en/tools/workshop-vacuums"
+        },
+        {
+          "title": "Work Lights",
+          "url": "https://www.rona.ca/en/tools/work-lights"
+        },
+        {
+          "title": "Ladders, Stools and Scaffolding",
+          "url": "https://www.rona.ca/en/tools/ladders-stools-and-scaffolding"
+        },
+        {
+          "title": "Clothing and Safety",
+          "url": "https://www.rona.ca/en/tools/clothing-and-safety"
+        },
+        {
+          "title": "Clamping Tools and Pliers",
+          "url": "https://www.rona.ca/en/tools/clamping-tools-and-pliers"
+        },
+        {
+          "title": "Fastening Tools",
+          "url": "https://www.rona.ca/en/tools/fastening-tools"
+        },
+        {
+          "title": "Manual Cutting Tools",
+          "url": "https://www.rona.ca/en/tools/manual-cutting-tools"
+        },
+        {
+          "title": "Manual Woodworking Tools",
+          "url": "https://www.rona.ca/en/tools/manual-woodworking-tools"
+        },
+        {
+          "title": "Measuring and Precision Tools",
+          "url": "https://www.rona.ca/en/tools/measuring-and-precision-tools"
+        },
+        {
+          "title": "Screwdriving Tools",
+          "url": "https://www.rona.ca/en/tools/screwdriving-tools"
+        },
+        {
+          "title": "Striking Tools",
+          "url": "https://www.rona.ca/en/tools/striking-tools"
+        },
+        {
+          "title": "Trowels, Scrapers and Surface Conditioning",
+          "url": "https://www.rona.ca/en/tools/trowels-scrapers-and-surface-conditioning"
+        },
+        {
+          "title": "Welding Tools",
+          "url": "https://www.rona.ca/en/tools/welding-tools"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16505",
+        "productCategory": "38827"
+      }
+    },
+    {
+      "name": "Lighting and Ceiling Fans",
+      "url": "https://www.rona.ca/en/lighting-and-ceiling-fans",
+      "children": [
+        {
+          "title": "Indoor Lighting",
+          "url": "https://www.rona.ca/en/lighting-and-ceiling-fans/indoor-lighting"
+        },
+        {
+          "title": "Bathroom and Wall Lighting",
+          "url": "https://www.rona.ca/en/lighting-and-ceiling-fans/bathroom-and-wall-lighting"
+        },
+        {
+          "title": "Ceiling Fans",
+          "url": "https://www.rona.ca/en/lighting-and-ceiling-fans/ceiling-fans"
+        },
+        {
+          "title": "Light Bulbs",
+          "url": "https://www.rona.ca/en/lighting-and-ceiling-fans/light-bulbs"
+        },
+        {
+          "title": "Work and Shop Lights",
+          "url": "https://www.rona.ca/en/lighting-and-ceiling-fans/work-and-shop-lights"
+        },
+        {
+          "title": "Outdoor Lighting",
+          "url": "https://www.rona.ca/en/lighting-and-ceiling-fans/outdoor-lighting"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "333001",
+        "productCategory": "340744"
+      }
+    },
+    {
+      "name": "Electrical",
+      "url": "https://www.rona.ca/en/electrical",
+      "children": [
+        {
+          "title": "Indoor Lighting",
+          "url": "https://www.rona.ca/en/electrical/indoor-lighting"
+        },
+        {
+          "title": "Outdoor Lighting",
+          "url": "https://www.rona.ca/en/electrical/outdoor-lighting"
+        },
+        {
+          "title": "Wire and Cable",
+          "url": "https://www.rona.ca/en/electrical/wire-and-cable"
+        },
+        {
+          "title": "Audio, Video and Electronics",
+          "url": "https://www.rona.ca/en/electrical/audio-video-and-electronics"
+        },
+        {
+          "title": "Breaker Panels, Breakers and Fuses",
+          "url": "https://www.rona.ca/en/electrical/breaker-panels-breakers-and-fuses"
+        },
+        {
+          "title": "Cords and Timers",
+          "url": "https://www.rona.ca/en/electrical/cords-and-timers"
+        },
+        {
+          "title": "Wall Receptacles and Plates",
+          "url": "https://www.rona.ca/en/electrical/wall-receptacles-and-plates"
+        },
+        {
+          "title": "Switches and Dimmers",
+          "url": "https://www.rona.ca/en/electrical/switches-and-dimmers"
+        },
+        {
+          "title": "Electrical Boxes and Connectors",
+          "url": "https://www.rona.ca/en/electrical/electrical-boxes-and-connectors"
+        },
+        {
+          "title": "Chimes and Accessories",
+          "url": "https://www.rona.ca/en/electrical/chimes-and-accessories"
+        },
+        {
+          "title": "Wire Connectors, Self-Locking ties and accessories",
+          "url": "https://www.rona.ca/en/electrical/wire-connectors-self-locking-ties-and-accessories"
+        },
+        {
+          "title": "Tools and Testers",
+          "url": "https://www.rona.ca/en/electrical/tools-and-testers"
+        },
+        {
+          "title": "Fire Safety",
+          "url": "https://www.rona.ca/en/electrical/fire-safety"
+        },
+        {
+          "title": "Sockets, Plugs and Lampholders",
+          "url": "https://www.rona.ca/en/electrical/sockets-plugs-and-lampholders"
+        },
+        {
+          "title": "Alternative Energy",
+          "url": "https://www.rona.ca/en/electrical/alternative-energy"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16511",
+        "productCategory": "38906"
+      }
+    },
+    {
+      "name": "Heating, Cooling and Ventilation",
+      "url": "https://www.rona.ca/en/heating-cooling-and-ventilation",
+      "children": [
+        {
+          "title": "Air Conditioners and Fans",
+          "url": "https://www.rona.ca/en/heating-cooling-and-ventilation/air-conditioners-and-fans"
+        },
+        {
+          "title": "Heating",
+          "url": "https://www.rona.ca/en/heating-cooling-and-ventilation/heating"
+        },
+        {
+          "title": "Ventilation",
+          "url": "https://www.rona.ca/en/heating-cooling-and-ventilation/ventilation"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "146501",
+        "productCategory": "317542"
+      }
+    },
+    {
+      "name": "Plumbing",
+      "url": "https://www.rona.ca/en/plumbing",
+      "children": [
+        {
+          "title": "Water Heaters",
+          "url": "https://www.rona.ca/en/plumbing/water-heaters"
+        },
+        {
+          "title": "Fittings and Pipes",
+          "url": "https://www.rona.ca/en/plumbing/fittings-and-pipes"
+        },
+        {
+          "title": "Pumps and Tanks",
+          "url": "https://www.rona.ca/en/plumbing/pumps-and-tanks"
+        },
+        {
+          "title": "Water Filtration and Water Softeners",
+          "url": "https://www.rona.ca/en/plumbing/water-filtration-and-water-softeners"
+        },
+        {
+          "title": "Underground Drainage",
+          "url": "https://www.rona.ca/en/plumbing/underground-drainage"
+        },
+        {
+          "title": "Parts and Accessories",
+          "url": "https://www.rona.ca/en/plumbing/parts-and-accessories"
+        },
+        { "title": "Valves", "url": "https://www.rona.ca/en/plumbing/valves" },
+        {
+          "title": "Speedway",
+          "url": "https://www.rona.ca/en/plumbing/speedway"
+        },
+        {
+          "title": "Plumbing Insulation",
+          "url": "https://www.rona.ca/en/plumbing/plumbing-insulation"
+        },
+        {
+          "title": "Drain Cleaners",
+          "url": "https://www.rona.ca/en/plumbing/drain-cleaners"
+        },
+        {
+          "title": "Specialized Fittings",
+          "url": "https://www.rona.ca/en/plumbing/specialized-fittings"
+        },
+        {
+          "title": "Glues and Pastes",
+          "url": "https://www.rona.ca/en/plumbing/glues-and-pastes"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16508",
+        "productCategory": "38866"
+      }
+    },
+    {
+      "name": "Hardware",
+      "url": "https://www.rona.ca/en/hardware",
+      "children": [
+        {
+          "title": "Automotive",
+          "url": "https://www.rona.ca/en/hardware/automotive"
+        },
+        {
+          "title": "Handles and Locks",
+          "url": "https://www.rona.ca/en/hardware/handles-and-locks"
+        },
+        {
+          "title": "Home Security",
+          "url": "https://www.rona.ca/en/hardware/home-security"
+        },
+        {
+          "title": "Structural Posts and Supports",
+          "url": "https://www.rona.ca/en/hardware/structural-posts-and-supports"
+        },
+        {
+          "title": "Screws, Nuts and Bolts",
+          "url": "https://www.rona.ca/en/hardware/screws-nuts-and-bolts"
+        },
+        {
+          "title": "Dock Hardware",
+          "url": "https://www.rona.ca/en/hardware/dock-hardware"
+        },
+        {
+          "title": "Hooks and Fasteners",
+          "url": "https://www.rona.ca/en/hardware/hooks-and-fasteners"
+        },
+        {
+          "title": "Cables, Chains and Ropes",
+          "url": "https://www.rona.ca/en/hardware/cables-chains-and-ropes"
+        },
+        {
+          "title": "Furniture and Cabinet Hardware",
+          "url": "https://www.rona.ca/en/hardware/furniture-and-cabinet-hardware"
+        },
+        {
+          "title": "Casters, Legs and Glides",
+          "url": "https://www.rona.ca/en/hardware/casters-legs-and-glides"
+        },
+        {
+          "title": "Mailboxes, Numbers and Letters",
+          "url": "https://www.rona.ca/en/hardware/mailboxes-numbers-and-letters"
+        },
+        {
+          "title": "Nails and Anchors",
+          "url": "https://www.rona.ca/en/hardware/nails-and-anchors"
+        },
+        {
+          "title": "Signs, Plaques and Plates",
+          "url": "https://www.rona.ca/en/hardware/signs-plaques-and-plates"
+        },
+        {
+          "title": "Batteries and Chargers",
+          "url": "https://www.rona.ca/en/hardware/batteries-and-chargers"
+        },
+        {
+          "title": "Corner Braces and Corner Plates",
+          "url": "https://www.rona.ca/en/hardware/corner-braces-and-corner-plates"
+        },
+        {
+          "title": "Iron Rods and Tubes",
+          "url": "https://www.rona.ca/en/hardware/iron-rods-and-tubes"
+        },
+        {
+          "title": "Specialized Nails and Tacks",
+          "url": "https://www.rona.ca/en/hardware/specialized-nails-and-tacks"
+        },
+        {
+          "title": "Structural Connectors",
+          "url": "https://www.rona.ca/en/hardware/structural-connectors"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16506",
+        "productCategory": "38842"
+      }
+    },
+    {
+      "name": "Doors and Windows",
+      "url": "https://www.rona.ca/en/doors-and-windows",
+      "children": [
+        {
+          "title": "Exterior Doors",
+          "url": "https://www.rona.ca/en/doors-and-windows/exterior-doors"
+        },
+        {
+          "title": "Interior Doors",
+          "url": "https://www.rona.ca/en/doors-and-windows/interior-doors"
+        },
+        {
+          "title": "Windows",
+          "url": "https://www.rona.ca/en/doors-and-windows/windows"
+        },
+        {
+          "title": "Skylights",
+          "url": "https://www.rona.ca/en/doors-and-windows/skylights"
+        },
+        {
+          "title": "Exterior Door Hardware",
+          "url": "https://www.rona.ca/en/doors-and-windows/exterior-door-hardware"
+        },
+        {
+          "title": "Weatherstripping",
+          "url": "https://www.rona.ca/en/doors-and-windows/weatherstripping"
+        },
+        {
+          "title": "Screens and Accessories",
+          "url": "https://www.rona.ca/en/doors-and-windows/screens-and-accessories"
+        },
+        {
+          "title": "Window Wells and Covers",
+          "url": "https://www.rona.ca/en/doors-and-windows/window-wells-and-covers"
+        },
+        {
+          "title": "Door Hardware",
+          "url": "https://www.rona.ca/en/doors-and-windows/door-hardware"
+        },
+        {
+          "title": "Safety Accessories",
+          "url": "https://www.rona.ca/en/doors-and-windows/safety-accessories"
+        },
+        {
+          "title": "Interior Door Hardware",
+          "url": "https://www.rona.ca/en/doors-and-windows/interior-door-hardware"
+        },
+        {
+          "title": "Window Hardware",
+          "url": "https://www.rona.ca/en/doors-and-windows/window-hardware"
+        },
+        {
+          "title": "Awnings and Accessories",
+          "url": "https://www.rona.ca/en/doors-and-windows/awnings-and-accessories"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16513",
+        "productCategory": "38950"
+      }
+    },
+    {
+      "name": "Paint",
+      "url": "https://www.rona.ca/en/paint",
+      "children": [
+        {
+          "title": "Interior Paint",
+          "url": "https://www.rona.ca/en/paint/interior-paint"
+        },
+        {
+          "title": "Exterior Paint",
+          "url": "https://www.rona.ca/en/paint/exterior-paint"
+        },
+        { "title": "Primer", "url": "https://www.rona.ca/en/paint/primer" },
+        {
+          "title": "Interior Stain",
+          "url": "https://www.rona.ca/en/paint/interior-stain"
+        },
+        {
+          "title": "Exterior Stain",
+          "url": "https://www.rona.ca/en/paint/exterior-stain"
+        },
+        {
+          "title": "Spray Paint",
+          "url": "https://www.rona.ca/en/paint/spray-paint"
+        },
+        {
+          "title": "Furniture and Cabinet Paint",
+          "url": "https://www.rona.ca/en/paint/furniture-and-cabinet-paint"
+        },
+        {
+          "title": "Floor Paint",
+          "url": "https://www.rona.ca/en/paint/floor-paint"
+        },
+        {
+          "title": "Rust Paint",
+          "url": "https://www.rona.ca/en/paint/rust-paint"
+        },
+        {
+          "title": "Solvents, Dryers and Treatments",
+          "url": "https://www.rona.ca/en/paint/solvents-dryers-and-treatments"
+        },
+        {
+          "title": "Sprayers and Heat Guns",
+          "url": "https://www.rona.ca/en/paint/sprayers-and-heat-guns"
+        },
+        {
+          "title": "Caulks and Sealants",
+          "url": "https://www.rona.ca/en/paint/caulks-and-sealants"
+        },
+        {
+          "title": "Brushes, Rollers and Trays",
+          "url": "https://www.rona.ca/en/paint/brushes-rollers-and-trays"
+        },
+        {
+          "title": "Tapes, Sheets and Protective Accessories",
+          "url": "https://www.rona.ca/en/paint/tapes-sheets-and-protective-accessories"
+        },
+        {
+          "title": "Tapes, Glues and Adhesives",
+          "url": "https://www.rona.ca/en/paint/tapes-glues-and-adhesives"
+        },
+        {
+          "title": "Strippers, Tools and Accessories",
+          "url": "https://www.rona.ca/en/paint/strippers-tools-and-accessories"
+        },
+        {
+          "title": "Patching Compounds",
+          "url": "https://www.rona.ca/en/paint/patching-compounds"
+        },
+        { "title": "Varnish", "url": "https://www.rona.ca/en/paint/varnish" },
+        {
+          "title": "Oil Finish and Waxes",
+          "url": "https://www.rona.ca/en/paint/oil-finish-and-waxes"
+        },
+        {
+          "title": "Faux Finishes and Artist Materials",
+          "url": "https://www.rona.ca/en/paint/faux-finishes-and-artist-materials"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16502",
+        "productCategory": "38784"
+      }
+    },
+    {
+      "name": "Decoration and Furniture",
+      "url": "https://www.rona.ca/en/decoration-and-furniture",
+      "children": [
+        {
+          "title": "Living Room Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/living-room-furniture"
+        },
+        {
+          "title": "Bedroom Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/bedroom-furniture"
+        },
+        {
+          "title": "Office Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/office-furniture"
+        },
+        {
+          "title": "Kitchen and Dining Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/kitchen-and-dining-furniture"
+        },
+        {
+          "title": "Window Covering and Accessories",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/window-covering-and-accessories"
+        },
+        {
+          "title": "Baby and Kids Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/baby-and-kids-furniture"
+        },
+        {
+          "title": "Frames and Mirrors",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/frames-and-mirrors"
+        },
+        {
+          "title": "Decorative Accessories",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/decorative-accessories"
+        },
+        {
+          "title": "Luggage and Travel Accessories",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/luggage-and-travel-accessories"
+        },
+        {
+          "title": "Home Bars",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/home-bars"
+        },
+        {
+          "title": "Area Rugs and Mats",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/area-rugs-and-mats"
+        },
+        {
+          "title": "Wallpaper and Appliques",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/wallpaper-and-appliques"
+        },
+        {
+          "title": "Seasonal Decorations",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/seasonal-decorations"
+        },
+        {
+          "title": "Craft Supplies",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/craft-supplies"
+        },
+        {
+          "title": "Folding Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/folding-furniture"
+        },
+        {
+          "title": "Game Room",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/game-room"
+        },
+        {
+          "title": "Furniture",
+          "url": "https://www.rona.ca/en/decoration-and-furniture/furniture"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16504",
+        "productCategory": "38815"
+      }
+    },
+    {
+      "name": "Storage and Cleaning",
+      "url": "https://www.rona.ca/en/storage-and-cleaning",
+      "children": [
+        {
+          "title": "Garage Storage",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/garage-storage"
+        },
+        {
+          "title": "Closet Organization",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/closet-organization"
+        },
+        {
+          "title": "Storage Baskets and Containers",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/storage-baskets-and-containers"
+        },
+        {
+          "title": "Shelves and Shelving",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/shelves-and-shelving"
+        },
+        {
+          "title": "Kitchen Storage",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/kitchen-storage"
+        },
+        {
+          "title": "Cleaning and Maintenance",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/cleaning-and-maintenance"
+        },
+        {
+          "title": "Moving Supplies",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/moving-supplies"
+        },
+        {
+          "title": "Pet Care",
+          "url": "https://www.rona.ca/en/storage-and-cleaning/pet-care"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "16507",
+        "productCategory": "38857"
+      }
+    },
+    {
+      "name": "Accessible Home",
+      "url": "https://www.rona.ca/en/accessible-home",
+      "children": [
+        {
+          "title": "Bedside Assistance",
+          "url": "https://www.rona.ca/en/accessible-home/bedside-assistance"
+        },
+        {
+          "title": "Injury Relief & Physical Therapy",
+          "url": "https://www.rona.ca/en/accessible-home/injury-relief-&-physical-therapy"
+        },
+        {
+          "title": "Wheelchairs & Mobility Aids",
+          "url": "https://www.rona.ca/en/accessible-home/wheelchairs-&-mobility-aids"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "322001",
+        "productCategory": "339169"
+      }
+    },
+    {
+      "name": "Sports and Fitness",
+      "url": "https://www.rona.ca/en/sports-and-fitness",
+      "children": [
+        {
+          "title": "Fitness and Exercise Equipment",
+          "url": "https://www.rona.ca/en/sports-and-fitness/fitness-and-exercise-equipment"
+        },
+        {
+          "title": "Sports Equipment",
+          "url": "https://www.rona.ca/en/sports-and-fitness/sports-equipment"
+        },
+        {
+          "title": "Basketball Systems",
+          "url": "https://www.rona.ca/en/sports-and-fitness/basketball-systems"
+        },
+        {
+          "title": "Coolers and Water Bottles",
+          "url": "https://www.rona.ca/en/sports-and-fitness/coolers-and-water-bottles"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "303501",
+        "productCategory": "337654"
+      }
+    },
+    {
+      "name": "Farm Supplies",
+      "url": "https://www.rona.ca/en/farm-supplies",
+      "children": [
+        {
+          "title": "Animal Care and Hygiene",
+          "url": "https://www.rona.ca/en/farm-supplies/animal-care-and-hygiene"
+        },
+        {
+          "title": "Breeding Equipment",
+          "url": "https://www.rona.ca/en/farm-supplies/breeding-equipment"
+        },
+        {
+          "title": "Farm Fences and Pens",
+          "url": "https://www.rona.ca/en/farm-supplies/farm-fences-and-pens"
+        },
+        {
+          "title": "Maple Sugaring",
+          "url": "https://www.rona.ca/en/farm-supplies/maple-sugaring"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "212001",
+        "productCategory": "326555"
+      }
+    },
+    {
+      "name": "Halloween",
+      "url": "https://www.rona.ca/en/halloween",
+      "children": [
+        {
+          "title": "Halloween Inflatables",
+          "url": "https://www.rona.ca/en/halloween/halloween-inflatables"
+        },
+        {
+          "title": "Halloween Décor",
+          "url": "https://www.rona.ca/en/halloween/halloween-décor"
+        },
+        {
+          "title": "Halloween Lighting and Special Effects",
+          "url": "https://www.rona.ca/en/halloween/halloween-lighting-and-special-effects"
+        },
+        {
+          "title": "Fall and Harvest Décor",
+          "url": "https://www.rona.ca/en/halloween/fall-and-harvest-décor"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "182001",
+        "productCategory": "324411"
+      }
+    },
+    {
+      "name": "Christmas Decorations",
+      "url": "https://www.rona.ca/en/christmas-decorations",
+      "children": [
+        {
+          "title": "Christmas Trees",
+          "url": "https://www.rona.ca/en/christmas-decorations/christmas-trees"
+        },
+        {
+          "title": "Outdoor Holiday Decorations",
+          "url": "https://www.rona.ca/en/christmas-decorations/outdoor-holiday-decorations"
+        },
+        {
+          "title": "Decorative Lights",
+          "url": "https://www.rona.ca/en/christmas-decorations/decorative-lights"
+        },
+        {
+          "title": "Indoor Holiday Decorations",
+          "url": "https://www.rona.ca/en/christmas-decorations/indoor-holiday-decorations"
+        },
+        {
+          "title": "Tree Ornaments",
+          "url": "https://www.rona.ca/en/christmas-decorations/tree-ornaments"
+        },
+        {
+          "title": "Christmas Villages",
+          "url": "https://www.rona.ca/en/christmas-decorations/christmas-villages"
+        },
+        {
+          "title": "Garlands and Wreaths",
+          "url": "https://www.rona.ca/en/christmas-decorations/garlands-and-wreaths"
+        },
+        {
+          "title": "Christmas Tree Stands and Skirts",
+          "url": "https://www.rona.ca/en/christmas-decorations/christmas-tree-stands-and-skirts"
+        },
+        {
+          "title": "Decorative hooks and ties",
+          "url": "https://www.rona.ca/en/christmas-decorations/decorative-hooks-and-ties"
+        },
+        {
+          "title": "Gift Wrap",
+          "url": "https://www.rona.ca/en/christmas-decorations/gift-wrap"
+        }
+      ],
+      "info": {
+        "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors": "",
+        "catalogId": "10051",
+        "storeId": "10151",
+        "langId": "-1",
+        "categoryId": "120001",
+        "productCategory": "316756"
+      }
+    }
+  ]
+}
