@@ -34,6 +34,32 @@ class Rona {
     return departments;
   }
   ///////////////////////////////////////////
+  static async fetch_store_ids() {
+    let $ = await this.resolve(
+      "https://www.rona.ca/webapp/wcs/stores/servlet/RonaStoreListDisplay?storeLocAddress=toronto&storeId=10151&catalogId=10051&langId=-1&latitude=43.653226&longitude=-79.3831843"
+    );
+    let scripts = $("script");
+    let output = [];
+    scripts.each((idx, el) => {
+      let script = $(el).text();
+      if (
+        script.includes("storeMapdetailsJSON") &&
+        script.includes("var flyerURL")
+      ) {
+        let content = script;
+        let interest = "storeMarkers =";
+        let start = content.indexOf(interest);
+        let data = content.slice(start + interest.length, content.length);
+        let cleaned = data.replace(/\n|\t/g, "");
+        let final = cleaned.replaceAll(";", "").trim();
+        /* prettier-ignore */
+        let final1 = final.replaceAll("'", '\"');
+        output.push(JSON.parse(final1));
+      }
+    });
+    return output[0];
+  }
+  ///////////////////////////////////////////
   static async get_dapartment_members(stop) {
     let departments = await this.get_departments();
     let members = [];
@@ -146,7 +172,5 @@ class Rona {
     return unique_set;
   }
 }
-
-let x = await this.fet_sitemap();
 
 module.exports = Rona;
