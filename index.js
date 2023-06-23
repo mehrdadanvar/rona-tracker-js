@@ -6,7 +6,7 @@ class Rona {
   static base_url = "https://www.rona.ca";
   static allproducts_url = "https://www.rona.ca/en/all-products";
   static timer = (ms) => new Promise((res) => setTimeout(res, ms));
-  /////////////////////////////////////////
+  ///////////////////helpers //////////////////////
   static async resolve(url) {
     let response = await fetch(url);
     let html = await response.text();
@@ -32,32 +32,6 @@ class Rona {
       departments.push(department);
     });
     return departments;
-  }
-  ///////////////////////////////////////////
-  static async fetch_store_ids() {
-    let $ = await this.resolve(
-      "https://www.rona.ca/webapp/wcs/stores/servlet/RonaStoreListDisplay?storeLocAddress=toronto&storeId=10151&catalogId=10051&langId=-1&latitude=43.653226&longitude=-79.3831843"
-    );
-    let scripts = $("script");
-    let output = [];
-    scripts.each((idx, el) => {
-      let script = $(el).text();
-      if (
-        script.includes("storeMapdetailsJSON") &&
-        script.includes("var flyerURL")
-      ) {
-        let content = script;
-        let interest = "storeMarkers =";
-        let start = content.indexOf(interest);
-        let data = content.slice(start + interest.length, content.length);
-        let cleaned = data.replace(/\n|\t/g, "");
-        let final = cleaned.replaceAll(";", "").trim();
-        /* prettier-ignore */
-        let final1 = final.replaceAll("'", '\"');
-        output.push(JSON.parse(final1));
-      }
-    });
-    return output[0];
   }
   ///////////////////////////////////////////
   static async get_dapartment_members(stop) {
@@ -112,6 +86,33 @@ class Rona {
 
     return departments;
   }
+  ///////////////////////////////////////////
+  static async fetch_store_ids() {
+    let $ = await this.resolve(
+      "https://www.rona.ca/webapp/wcs/stores/servlet/RonaStoreListDisplay?storeLocAddress=toronto&storeId=10151&catalogId=10051&langId=-1&latitude=43.653226&longitude=-79.3831843"
+    );
+    let scripts = $("script");
+    let output = [];
+    scripts.each((idx, el) => {
+      let script = $(el).text();
+      if (
+        script.includes("storeMapdetailsJSON") &&
+        script.includes("var flyerURL")
+      ) {
+        let content = script;
+        let interest = "storeMarkers =";
+        let start = content.indexOf(interest);
+        let data = content.slice(start + interest.length, content.length);
+        let cleaned = data.replace(/\n|\t/g, "");
+        let final = cleaned.replaceAll(";", "").trim();
+        /* prettier-ignore */
+        let final1 = final.replaceAll("'", '\"');
+        output.push(JSON.parse(final1));
+      }
+    });
+    return output[0];
+  }
+
   ////////////////////////////////////////////
   static read_data_from_disk() {
     try {
@@ -168,8 +169,30 @@ class Rona {
       ttags.push($(element).attr("href"));
       unique_set.add($(element).attr("href"));
     });
-    console.log(unique_set);
+    console.table(unique_set);
     return unique_set;
+  }
+  ///////////////////////////////////////////////////////
+  static async create_clean_producpages(stop) {
+    let results = await this.fetch_sitemap();
+    let output = [];
+    for (let element of results) {
+      console.log(`checking url for presence of products ${element}`);
+      if (element.split("/").length > 5) {
+        let $ = await resolve(element);
+        sugestions = $("div.category_suggestion_links");
+        sugestions.length > 0
+          ? console.log("not interested")
+          : output.push(element);
+        // specifics = $("div.filter-select");
+        // title = $("h1.sidebar__title");
+        //console.log(sugestions.length, specifics.length, title.text());
+        await timer(stop);
+      } else {
+        console.log(`this page does not contain products :  ${element}`);
+      }
+    }
+    return output;
   }
 }
 
