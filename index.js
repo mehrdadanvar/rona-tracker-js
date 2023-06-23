@@ -7,6 +7,12 @@ class Rona {
   static allproducts_url = "https://www.rona.ca/en/all-products";
   static timer = (ms) => new Promise((res) => setTimeout(res, ms));
   /////////////////////////////////////////
+  static async resolve(url) {
+    let response = await fetch(url);
+    let html = await response.text();
+    let $ = cheerio.load(html);
+    return $;
+  }
   ///////////////// Static Methods//////////
   static async get_departments() {
     let response = await fetch(this.base_url);
@@ -136,7 +142,6 @@ class Rona {
       ttags.push($(element).attr("href"));
       unique_set.add($(element).attr("href"));
     });
-
     console.log(unique_set);
     return unique_set;
   }
