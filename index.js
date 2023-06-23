@@ -3,8 +3,8 @@ const { error } = require("console");
 const fs = require("fs");
 
 class Rona {
-  static base_url = "https://www.rona.ca/en";
-  static test = "menu__item.menu__list";
+  static base_url = "https://www.rona.ca";
+  static allproducts_url = "https://www.rona.ca/en/all-products";
   static timer = (ms) => new Promise((res) => setTimeout(res, ms));
   /////////////////////////////////////////
   ///////////////// Static Methods//////////
@@ -80,17 +80,68 @@ class Rona {
 
     return departments;
   }
+  ////////////////////////////////////////////
+  static read_data_from_disk() {
+    try {
+      let data = fs.readFileSync("./data/data.json", "utf-8");
+      return JSON.parse(data);
+    } catch (error) {
+      error ? console.log(error) : "";
+    }
+  }
+  //////////////////////////////////////////
+  static async get_subdepartments(department, stop) {
+    let data = this.read_data_from_disk();
+    let departments = data.departments;
+    console.log(departments.length);
+    let members = [];
+    let filtered_departmet = departments.filter((x) => x.name == department);
+    for (let child of filtered_departmet[0].children) {
+      let response = await fetch(child.url);
+      let html = await response.text();
+      let $ = cheerio.load(html);
+      let subcategories = [];
+      let interest = $("div.category_suggestion_links");
+      try {
+        let children_tags = interest.children();
+        children_tags.each((index, element) => {
+          let subcategory = {};
+          // let item = $(element);
+          subcategory.parent = child.title;
+          subcategory.name = $(element).text();
+          subcategory.url =
+            `${this.base_url}` + $(element).find("a").attr("href");
+          console.log(subcategory);
+          subcategories.push(subcategory);
+        });
+        members.push(subcategories);
+        console.log(members.length, " is now ");
+        await this.timer(stop);
+      } catch (error) {
+        members.push(null);
+      }
+    }
+    return members;
+  }
+  //////////////////////////////////////////
+  static async fetch_sitemap() {
+    // return a set on unique urls containing product data
+    let response = await fetch(this.allproducts_url);
+    let html = await response.text();
+    let $ = cheerio.load(html);
+    let tags = $("div.page-allproduct a");
+    let ttags = [];
+    let unique_set = new Set();
+    tags.each((index, element) => {
+      ttags.push($(element).attr("href"));
+      unique_set.add($(element).attr("href"));
+    });
+
+    console.log(unique_set);
+    return unique_set;
+  }
 }
 
-async function run() {
-  let mehrdad = await Rona.get_dapartment_members(1000);
-  fs.writeFile(
-    "data.json",
-    JSON.stringify({ data: mehrdad }),
-    "utf-8",
-    (error) => {
-      error ? console.log(error) : null;
-    }
-  );
-}
-run();
+let x = await this.fet_sitemap();
+
+module.exports = Rona;
