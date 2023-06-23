@@ -3,7 +3,7 @@ const { error } = require("console");
 const fs = require("fs");
 
 class Rona {
-  static base_url = "https://www.rona.ca";
+  static base_url = "https://www.rona.ca/en";
   static allproducts_url = "https://www.rona.ca/en/all-products";
   static timer = (ms) => new Promise((res) => setTimeout(res, ms));
   ///////////////////helpers //////////////////////
@@ -13,6 +13,7 @@ class Rona {
     let $ = cheerio.load(html);
     return $;
   }
+  static timer = (ms) => new Promise((res) => setTimeout(res, ms));
   ///////////////// Static Methods//////////
   static async get_departments() {
     let response = await fetch(this.base_url);
@@ -179,21 +180,52 @@ class Rona {
     for (let element of results) {
       console.log(`checking url for presence of products ${element}`);
       if (element.split("/").length > 5) {
-        let $ = await resolve(element);
-        sugestions = $("div.category_suggestion_links");
-        sugestions.length > 0
+        let $ = await this.resolve(element);
+        let suggests = $("div.category_suggestion_links");
+        suggests.length > 0
           ? console.log("not interested")
           : output.push(element);
         // specifics = $("div.filter-select");
         // title = $("h1.sidebar__title");
-        //console.log(sugestions.length, specifics.length, title.text());
-        await timer(stop);
+        //console.log(suggests.length, specifics.length, title.text());
+        await this.timer(stop);
       } else {
         console.log(`this page does not contain products :  ${element}`);
       }
     }
     return output;
   }
+  //////////////////////////////////////////////////////////
+  static async fetch_api_info(link) {
+    let api_query_params = [];
+    let $ = await this.resolve(link);
+    let scripts = $("script");
+    scripts.each((i, el) => {
+      let script = $(el);
+      if (script.text().includes("CatalogSearchDisplayJS.urlString")) {
+        let raw = script.text().trim();
+        let cleaned = raw.replace("CatalogSearchDisplayJS.urlString = ", "");
+        let cleaned1 = cleaned.replace(
+          "CatalogSearchDisplayJS.content = 'Products';",
+          ""
+        );
+        let final = cleaned1.replace(";", "");
+        const searchParams = new URLSearchParams(final);
+        let search_params = {};
+        for (let [key, value] of searchParams.entries()) {
+          search_params[key] = value.replace(/[\t\n\']/g, "");
+        }
+        let base_url = Object.keys(search_params)[0].replace("'", "");
+        search_params["base_url"] = base_url;
+        delete search_params[
+          "'/webapp/wcs/stores/servlet/CategorySearchDisplay?navDescriptors"
+        ];
+        api_query_params.push(search_params);
+      }
+      return api_query_params[0];
+    });
+  }
+  /////////////////////////////////////////////////////////////////
 }
 
 module.exports = Rona;
