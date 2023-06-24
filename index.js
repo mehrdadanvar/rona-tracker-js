@@ -67,10 +67,7 @@ class Rona {
       carts.each((index, element) => {
         let family = { title: null };
         let card = $(element);
-        family.title = card
-          .find("a.page-department__category__title")
-          .text()
-          .trim();
+        family.title = card.find("a.page-department__category__title").text().trim();
         family.url = `${department.url}/${family.title
           .toLowerCase()
           .replaceAll(",", "")
@@ -96,10 +93,7 @@ class Rona {
     let output = [];
     scripts.each((idx, el) => {
       let script = $(el).text();
-      if (
-        script.includes("storeMapdetailsJSON") &&
-        script.includes("var flyerURL")
-      ) {
+      if (script.includes("storeMapdetailsJSON") && script.includes("var flyerURL")) {
         let content = script;
         let interest = "storeMarkers =";
         let start = content.indexOf(interest);
@@ -143,8 +137,7 @@ class Rona {
           // let item = $(element);
           subcategory.parent = child.title;
           subcategory.name = $(element).text();
-          subcategory.url =
-            `${this.base_url}` + $(element).find("a").attr("href");
+          subcategory.url = `${this.base_url}` + $(element).find("a").attr("href");
           console.log(subcategory);
           subcategories.push(subcategory);
         });
@@ -182,9 +175,7 @@ class Rona {
       if (element.split("/").length > 5) {
         let $ = await this.resolve(element);
         let suggests = $("div.category_suggestion_links");
-        suggests.length > 0
-          ? console.log("not interested")
-          : output.push(element);
+        suggests.length > 0 ? console.log("not interested") : output.push(element);
         // specifics = $("div.filter-select");
         // title = $("h1.sidebar__title");
         //console.log(suggests.length, specifics.length, title.text());
@@ -226,6 +217,38 @@ class Rona {
     });
   }
   /////////////////////////////////////////////////////////////////
+  static async create_api_calls(link, store_id = "") {
+    let info = await fetch_api_info(link);
+    console.log(info);
+    urls = [];
+    for (let i = 0; i < Math.ceil(parseInt(info.total_products) / 96); i++) {
+      let url = `https://rona.ca${info.base_url}
+      =&catalogId=${info.catalogId}&storeId=${info.storeId}&langId=-1&categoryId=${
+        info.categoryId
+      }&productCategory=${info.productCategory}&pageSize=96&content=Products&page=${
+        i + 1
+      }`;
+      urls.push(url);
+    }
+    return urls;
+  }
+  //////////////////////////////////////////////////////////////////
+  static async get_product_data(url, stop) {
+    let reslts = [];
+    let links = await create_api_calls(url);
+    for (let url of links) {
+      let $ = await resolve(url);
+      let scripts = $("script[type='application/json']");
+      scripts.each((i, el) => {
+        let data = $(el).text();
+        let obj = JSON.parse(data);
+        reslts.push(onj);
+        console.log(obj["name"]);
+      });
+      await timer(stop);
+    }
+    return reslts;
+  }
 }
 
 module.exports = Rona;
